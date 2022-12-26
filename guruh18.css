@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+
+header {
+
+    width: auto;
+    height: 2000px;
+    background-image: url(beautiful-raging-seas-with-sea-foam-waves_169016-8704.webp);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+}
+
+header .bosh{
+
+    display: flex;
+    margin: 30px;
+}
+
+header .boshbosh{
+
+    margin-left: 30px;
+}
+
+header .bosh h1{
+
+    margin-right: 40px;
+}
+
+header .ichkari{
+
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 100px;
+    text-align: center;
+}
+
+header .ichkari h3{
+
+    color: rgba(255, 0, 0, 0.705);
+}
